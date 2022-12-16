@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:layout_marginBottom="16dp"
+    >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo"
+        android:layout_marginTop="16dp"
+        android:textAppearance="?attr/textAppearanceHeadline5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:columnCount="4"
+            android:orientation="horizontal"
+            android:padding="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView">
+
+            <ToggleButton
+                android:id="@+id/normal_type_toggle_button"
+                android:layout_width="@dimen/filter_button_size"
+                android:layout_height="@dimen/filter_button_size"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/normal_type"
+                android:textOn=" "
+                android:textOff=" "
+
+                />
+
+            <ToggleButton
+                android:id="@+id/fighting_type_toggle_button"
+                android:layout_width="@dimen/filter_button_size"
+                android:layout_height="@dimen/filter_button_size"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/fighting_type"
+
+                />
+
+            <ToggleButton
+                android:id="@+id/flying_type_toggle_button"
+                android:layout_width="@dimen/filter_button_size"
+                android:layout_height="@dimen/filter_button_size"
+                android:layout_marginRight="4dp"
+                android:alpha="1.0"
+                android:background="@drawable/flying_type"
+
+
+                />
+
+            <ToggleButton
+                android:id="@+id/poison_type_toggle_button"
+                android:layout_width="@dimen/filter_button_size"
+                android:layout_height="@dimen/filter_button_size"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/poison_type"
+
+                />
+
+            <ToggleButton
+                android:id="@+id/ground_type_toggle_button"
+                android:layout_width="@dimen/filter_button_size"
+                android:layout_height="@dimen/filter_button_size"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/ground_type"
+
+                />
+
+            <ToggleButton
+                android:id="@+id/rock_type_toggle_button"
+                android:layout_width="@dimen/filter_button_size"
+                android:layout_height="@dimen/filter_button_size"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/rock_type"
+
+                />
+
+            <ToggleButton
+                android:id="@+id/bug_type_toggle_button"
+                android:layout_width="@dimen/filter_button_size"
+                android:layout_height="@dimen/filter_button_size"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/bug_type"
+
+                />
+
+            <ToggleButton
+                android:id="@+id/ghost_type_toggle_button"
+                android:layout_width="@dimen/filter_button_size"
+                android:layout_height="@dimen/filter_button_size"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/ghost_type"
+
+                />
+
+            <ToggleButton
+                android:id="@+id/steel_type_toggle_button"
+                android:layout_width="@dimen/filter_button_size"
+                android:layout_height="@dimen/filter_button_size"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/steel_type"
+
+                />
+
+            <ToggleButton
+                android:id="@+id/fire_type_toggle_button"
+                android:layout_width="@dimen/filter_button_size"
+                android:layout_height="@dimen/filter_button_size"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/fire_type"
+
+                />
+
+            <ToggleButton
+                android:id="@+id/water_type_toggle_button"
+                android:layout_width="@dimen/filter_button_size"
+                android:layout_height="@dimen/filter_button_size"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/water_type"
+
+                />
+
+            <ToggleButton
+                android:id="@+id/grass_type_toggle_button"
+                android:layout_width="@dimen/filter_button_size"
+                android:layout_height="@dimen/filter_button_size"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/grass_type"
+
+                />
+
+            <ToggleButton
+                android:id="@+id/electric_type_toggle_button"
+                android:layout_width="@dimen/filter_button_size"
+                android:layout_height="@dimen/filter_button_size"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/eletric_type"
+
+                />
+
+            <ToggleButton
+                android:id="@+id/psychic_type_toggle_button"
+                android:layout_width="@dimen/filter_button_size"
+                android:layout_height="@dimen/filter_button_size"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/psychic_type"
+
+                />
+
+            <ToggleButton
+                android:id="@+id/ice_type_toggle_button"
+                android:layout_width="@dimen/filter_button_size"
+                android:layout_height="@dimen/filter_button_size"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/ice_type"
+
+                />
+
+            <ToggleButton
+                android:id="@+id/dragon_type_toggle_button"
+                android:layout_width="@dimen/filter_button_size"
+                android:layout_height="@dimen/filter_button_size"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/dragon_type"
+
+                />
+
+            <ToggleButton
+                android:id="@+id/dark_type_toggle_button"
+                android:layout_width="@dimen/filter_button_size"
+                android:layout_height="@dimen/filter_button_size"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/dark_type"
+
+                />
+
+            <ToggleButton
+                android:id="@+id/fairy_type_toggle_button"
+                android:layout_width="@dimen/filter_button_size"
+                android:layout_height="@dimen/filter_button_size"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/fairy_type"
+
+                />
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/filter_reset_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restablecer"
+
+
+        android:textColor="@color/white"
+        app:backgroundTint="@color/primary_color"
+        app:rippleColor="@color/primary_variant"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView"
+        android:layout_marginBottom="16dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
